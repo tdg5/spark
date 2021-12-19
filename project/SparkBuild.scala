@@ -600,7 +600,7 @@ object DockerIntegrationTests {
   lazy val settings = Seq(
     dependencyOverrides += "com.google.guava" % "guava" % "18.0",
     resolvers += "DB2" at "https://app.camunda.com/nexus/content/repositories/public/",
-    libraryDependencies += "com.oracle" % "ojdbc6" % "11.2.0.1.0" from "https://app.camunda.com/nexus/content/repositories/public/com/oracle/ojdbc6/11.2.0.1.0/ojdbc6-11.2.0.1.0.jar" // scalastyle:ignore
+    libraryDependencies += "com.oracle" % "ojdbc6" % "11.2.0.3" from "https://app.camunda.com/nexus/content/repositories/public/com/oracle/ojdbc6/11.2.0.3/ojdbc6-11.2.0.3.jar" // scalastyle:ignore
   )
 }
 
